@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutation Event Test Runner</title>
+    <style>
+body {
+  margin: 0;
+  font-family: Arial;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* .results {
+    overflow-x: auto;
+    display: inline-block;
+} */
+
+.result {
+  background-color: grey;
+  border-bottom: 1px solid black;
+  padding: 8px;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.result-lists {
+    display: flex;
+}
+
+li {
+  font-family: Consolas, monospace;
+}
+    </style>
+</head>
+<body>
+    <div class="puppet"></div>
+    <div class="results-wrapper">
+        <div class="results"></div>
+    </div>
+
+    <script src="fill.js"></script>
+    <script src="runner.js"></script>
+</body>
+</html>
