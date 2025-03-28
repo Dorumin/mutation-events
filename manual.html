@@ -5,24 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mutation Event Test Runner</title>
     <style>
-body {
-  margin: 0;
-  font-family: Arial;
-  overflow-x: hidden;
-  overflow-y: auto;
+* {
+  box-sizing: border-box;
 }
 
-/* .results {
-    overflow-x: auto;
-    display: inline-block;
-} */
+html, body {
+  margin: 0;
+  font-family: Arial;
+  overflow: hidden;
+  height: 100%;
+}
+
+.results-wrapper {
+  height: 100%;
+  overflow: auto;
+  background-color: grey;
+}
+
+.results {
+  width: max-content;
+}
 
 .result {
-  background-color: grey;
-  border-bottom: 1px solid black;
+  border-top: 1px solid black;
   padding: 8px;
   white-space: nowrap;
-  overflow-x: auto;
 }
 
 .result-lists {

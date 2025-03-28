@@ -1,4 +1,4 @@
-(function () {
+(function() {
     const baseEventProps = {
         attrChange: 0,
         attrName: '',

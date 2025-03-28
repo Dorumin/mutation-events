@@ -79,7 +79,7 @@ window.addEventListener("load", () => {
 
     function stringifyEvent(event) {
         const props = stringifyProps(event);
-        return `Event: ${event.type} { ${props} }`;
+        return `${event.type} { ${props} }`;
     }
 
     /**
